@@ -6,5 +6,5 @@ docker-compose up -d
 - composer i
 
 # URL
-FE: localhost/transfer
-API: localhost/api/v1/service/transfer/make
+- FE: localhost/transfer
+- API: localhost/api/v1/service/transfer/make
