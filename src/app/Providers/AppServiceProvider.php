@@ -11,7 +11,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->singleton(\App\Services\TransferServiceInterface::class, \App\Services\TransferService::class);
     }
 
     /**

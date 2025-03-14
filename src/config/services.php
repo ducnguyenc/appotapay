@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'appota_pay' => [
+        'api_key' => env('API_KEY'),
+        'secret_key' => env('SECRET_KEY'),
+        'partner_code' => env('PARTNER_CODE'),
+    ],
 ];
